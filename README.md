@@ -35,7 +35,7 @@ To replicate this project, you must structure your data exactly as the code expe
 
 Note: If you store your data elsewhere, you must update the root_dir variable in the FloodNet_Colab.ipynb notebook.
 
-**⚙️ Installation & Usage**
+# **⚙️ Installation & Usage**
 1. Open in Google Colab
 Upload the FloodNet_Colab.ipynb file to your Google Drive or open it directly from this repository using Colab.
 
@@ -48,20 +48,15 @@ The first cell of the notebook installs the required geospatial libraries. Run i
 3. Mount Google Drive
 The code requires access to your Drive to load the dataset. Run the mounting cell and authorize access:
 
-**Python**
 
-from google.colab import drive
-drive.mount('/content/drive')
-4. Train the Model
-Run the training cells. The script will:
 
-Load and preprocess the S1 and S2 images.
+**Load and preprocess the S1 and S2 images.
 
 Train the SimpleCNN for 15 Epochs.
 
-Save the best model weights based on Validation Accuracy.
+Save the best model weights based on Validation Accuracy.**
 
-5. Evaluate
+**5. Evaluate**
 The final cells will generate:
 
 Confusion Matrix: To visualize True Positives vs. False Negatives.
