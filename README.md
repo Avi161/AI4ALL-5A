@@ -35,13 +35,17 @@ To replicate this project, you must structure your data exactly as the code expe
     Create a folder in your Drive named `AI4ALL_Project`. Inside, ensure your file structure looks like this:
 
 
-/content/drive/MyDrive/AI4ALL_Project/
-├── sen12floods/     # Main dataset folder
-│   ├── sentinel1/             # SAR images (.tif)
-│   ├── sentinel2/             # Optical images (.tif)
-│   └── labels/                # Ground truth labels
-├── sen12floods_split.csv      # Split file containing Train/Test/Val mapping
-└── FloodNet_Colab.ipynb       # This notebook
+
+/content/drive/MyDrive/FloodNet/    # Or your configured root directory
+└── SEN12FLOOD/                     # Main Dataset Directory
+    ├── S2list.json                 # Critical metadata file listing all scenes
+    ├── [Scene_Folder_ID_1]/        # e.g. '2018_12_18_...'
+    │   ├── [Prefix]_B2.tif         # Individual band files
+    │   ├── [Prefix]_B3.tif
+    │   ├── [Prefix]_B4.tif
+    │   └── ...
+    ├── [Scene_Folder_ID_2]/
+    └── ...
 
 Note: If you store your data elsewhere, you must update the root_dir variable in the FloodNet_Colab.ipynb notebook.
 
