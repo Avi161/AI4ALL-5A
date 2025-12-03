@@ -36,7 +36,7 @@ To replicate this project, you must structure your data exactly as the code expe
 
 
 /content/drive/MyDrive/AI4ALL_Project/
-├── sen12floods/               # Main dataset folder
+├── sen12floods/     # Main dataset folder
 │   ├── sentinel1/             # SAR images (.tif)
 │   ├── sentinel2/             # Optical images (.tif)
 │   └── labels/                # Ground truth labels
