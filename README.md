@@ -17,14 +17,6 @@ This repository contains the code for preprocessing, training, and evaluating th
 
 This project is designed to run on **Google Colab** to leverage free GPU resources.
 
-### Libraries Used
-* `torch` & `torchvision` (Deep Learning)
-* `rasterio` (Satellite Image Processing)
-* `numpy` & `pandas` (Data Manipulation)
-* `matplotlib` & `seaborn` (Visualization)
-* `scikit-learn` (Metrics)
-
----
 
 ## 📂 Dataset & Directory Structure
 
